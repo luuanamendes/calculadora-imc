@@ -118,6 +118,13 @@ body {
     height: 24px;
 }
 
+.btn{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    padding-top: 20px;
+}
+
 #calculate {
     border: none;
     width: 200px;

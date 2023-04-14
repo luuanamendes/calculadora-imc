@@ -28,7 +28,7 @@
 
                 <div class="input-field">
                     <img src="assets/img/ruler.png" alt="icon-ruler">
-                    <input type="number" id="height" name="height" placeholder="(ex.: 1.70)">
+                    <input type="number" id="height" name="height" step="0.01" placeholder="(ex.: 1.70)">
                     <span>m</span>
                 </div>
             </div>
@@ -37,25 +37,26 @@
 
                 <div class="input-field">
                     <img src="assets/img/weight.png" alt="icon-weight">
-                    <input type="number" id="weight" name="weight" placeholder="(ex.: 63.2)">
+                    <input type="number" id="weight" name="weight" step="0.01" placeholder="(ex.: 63.2)">
                     <span>Kg</span>
                 </div>
             </div>
-        </form>
-
-        <div id="info" class="hidden">
-            <div id="result">
-                <div id="imc">
-                    <span>Seu IMC é de</span>
-                    <span id="value"></span>
-                </div>
-                <div id="description">
-                    <span></span>
+            <div id="info" class="hidden">
+                <div id="result">
+                    <div id="imc">
+                        <span>Seu IMC é de</span>
+                        <span id="value"></span>
+                    </div>
+                    <div id="description">
+                        <span></span>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class="btn">
+                <button id="calculate">Calcular</button>
+            </div>
 
-        <button id="calculate">Calcular</button>
+        </form>
 
         <div class="more-info">
             <a href="https://bvsms.saude.gov.br/bvs/dicas/215_obesidade.html#:~:text=A%20obesidade%20%C3%A9%20determinada%20pelo,abaixo%20ou%20acima%20do%20desejado."
