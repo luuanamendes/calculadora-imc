@@ -1,4 +1,4 @@
-# ⚖️ Calculadora de IMC
+# Calculadora de IMC
 
 Uma calculadora simples de IMC (Índice de Massa Corporal), a aplicação recebe peso e altura como entrada e retorna o valor do IMC junto com uma classificação correspondente (magreza, normal, sobrepeso, obesidade).
 
